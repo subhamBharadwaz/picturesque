@@ -60,7 +60,7 @@ export const Container = styled.div`
     css`
       padding: 0;
       margin: 0;
-      background: red;
+      background: #0e141b;
       max-width: 100% !important;
     `}
 `;

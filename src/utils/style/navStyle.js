@@ -30,13 +30,7 @@ export const CloseNav = styled.div`
     outline: none;
     cursor: pointer;
     position: relative;
-    /* span {
-      width: 36px;
-      height: 8px;
-      display: block;
-      background: #fff;
-      margin: 8px;
-    } */
+
     i {
       font-size: 4rem;
       color: #fff;
