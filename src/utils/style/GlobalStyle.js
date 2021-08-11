@@ -79,6 +79,11 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+a{
+  text-decoration: none;
+  color:#fff;
+}
+
 /* Make images easier to work with */
 img,
 picture {
@@ -94,7 +99,7 @@ select {
   font: inherit;
 }
 
-button{
+button .btn{
   font-weight: bold;
     font-size: 1.1rem;
     font-family: inherit;

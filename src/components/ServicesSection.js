@@ -5,14 +5,13 @@ import styled from "styled-components";
 import { About, Description, Image } from "../utils/style/styles";
 
 // Animation
-import { motion } from "framer-motion";
 
 // Icons
-import clock from "../img/clock.svg";
-import diaphragm from "../img/diaphragm.svg";
-import money from "../img/money.svg";
-import teamwork from "../img/teamwork.svg";
-import home2 from "../img/home2.png";
+import clock from "../assets/img/clock.svg";
+import diaphragm from "../assets/img/diaphragm.svg";
+import money from "../assets/img/money.svg";
+import teamwork from "../assets/img/teamwork.svg";
+import home2 from "../assets/img/home2.png";
 
 const ServicesSection = () => {
   return (

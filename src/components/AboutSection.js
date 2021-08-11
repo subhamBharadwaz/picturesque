@@ -4,7 +4,7 @@ import React from "react";
 import { About, Description, Image, Hide } from "../utils/style/styles";
 
 // Images
-import home1 from "../img/home1.png";
+import home1 from "../assets/img/home1.png";
 
 // Animation
 import { motion } from "framer-motion";
@@ -32,7 +32,7 @@ const AboutSection = () => {
           have professionals with amazing skills.
         </motion.p>
 
-        <motion.button>Contact Us</motion.button>
+        <motion.button className="btn">Contact Us</motion.button>
       </Description>
       <Image>
         <motion.img src={home1} alt="cameraman" />
